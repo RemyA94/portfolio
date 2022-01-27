@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Proyecto>
+
+<!--Haciendo la UI de los proyectos a mostrar-->
+@if (Model is not null)
+{
+    <div class="text-center" style="padding-top: 6rem">
+        <h1>Mis trabajos recientes</h1>
+        <p>Aquí puedes ver algunos de mis trabajos más recientes.</p>
+    </div>
+}
+<partial name="_ListadoProyectos" model="Model" />
+
+
+@*/*Boton para que redirecciona a la vista proyectos*/
+<div class="container text-center btn-Proyectos">
+    <a class="btn btn-primary" href="/Home/Proyectos" ">Ver todos los proyectos realizados</a>
+</div>
+*@
+
+
+
