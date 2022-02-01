@@ -1,7 +1,7 @@
-﻿using Portafolio.Models;
+using Portafolio.Models;
 using SendGrid;
 using SendGrid.Helpers.Mail;
-
+//We need to add SendGrid pakage before
 namespace Portafolio.Servicios
 {
     public interface IServicioEmailSendGrid 
