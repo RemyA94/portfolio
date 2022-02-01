@@ -4,3 +4,5 @@ the projects carried out section as well.
 
 This project is a course by Felipe Gavílan [https://github.com/gavilanch],
 here we practice concepts of ASP.NET MVC.
+
+Some sections of this project were modified by me for practice. :)
